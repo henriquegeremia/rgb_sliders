@@ -11,8 +11,9 @@ const B = colorSliders[2];
 
 
 function start() {
-	//  updateInputTextValue();
+	// update input text value
 	colorSliders.map(slider => slider.nextElementSibling.value = slider.value);
+
 	updateSquareColor(R.value, G.value, B.value);
 
 	colorSlidersHandler();
