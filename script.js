@@ -3,12 +3,7 @@ window.addEventListener('load', start);
 // setting Vars
 const rgbSliderComponent = document.querySelector('.container');
 const colorDisplay = rgbSliderComponent.querySelector('#color_square');
-
-const colorSlidersNodeList = rgbSliderComponent.querySelectorAll("input[type=range]");
-const colorSliders = Array.from(colorSlidersNodeList);
-
-const textInputNodeList = rgbSliderComponent.querySelectorAll("input[type=text]");
-const textInputs = Array.from(textInputNodeList);
+const colorSliders = Array.from(rgbSliderComponent.querySelectorAll("input[type=range]"));
 
 const R = colorSliders[0];
 const G = colorSliders[1];
