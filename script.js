@@ -9,8 +9,6 @@ const R = colorSliders[0];
 const G = colorSliders[1];
 const B = colorSliders[2];
 
-let colors = [R.value, G.value, B.value];
-
 
 function start() {
 	//  updateInputTextValue();
