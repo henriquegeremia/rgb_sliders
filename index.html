@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+
+    <div class="slider_cor red">
+      <label name="R" class="titulo_slider">(R) Vermelho: </label>
+      <input type="range" min="0" max="255" value="0" class="slider" id="redRange">
+      <input type="text" id="redSliderValue" disabled>
+    </div>
+
+    <div class="slider_cor green">
+      <label name="G" class="titulo_slider">(G) Verde: </label>
+      <input type="range" min="0" max="255" value="0" class="slider" id="greenRange">
+      <input type="text" id="greenSliderValue" disabled>
+    </div>
+
+    <div class="slider_cor blue">
+      <label name="B" class="titulo_slider">(B) Azul: </label>
+      <input type="range" min="0" max="255" value="0" class="slider" id="blueRange">
+      <input type="text" id="blueSliderValue" disabled>
+    </div>
+
+    <div id="color_square"></div>
+  </div>
+
+  <!-- <label name="not valid slider" class="notValid">No Color: </label>
+  <input type="range" min="0" max="255" value="0" class="testing" id="noId"> -->
+</body>
+<script src="script.js"></script>
+
+</html>
